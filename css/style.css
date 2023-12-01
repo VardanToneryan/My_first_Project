@@ -70,6 +70,7 @@ div.toolbar>a>button {
     color: #232536;
     margin-top: 48px;
     border: 0;
+    margin-bottom: 90px;
 }
 
 .section-4 {
@@ -156,4 +157,94 @@ div.toolbar>a>button {
     line-height: 28px;
     /* 175% */
     width: 232px;
+}
+
+.section-6 .section-6_headerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.section-6 .section-6_headerDiv>h2 {
+    color: var(--Black, #232536);
+
+    /* Heading H2 */
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+    letter-spacing: -2px;
+    margin-top: 128px;
+    margin-bottom: 48px;
+}
+
+.section-6_display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-6_display-flex>div {
+    width: 296px;
+    height: 324px;
+    flex-shrink: 0;
+    background: var(--Light-grey, #F4F4F4);
+    padding: 40px 0;
+}
+
+.section-6_display-flex>div>img {
+    border-radius: 128px;
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.section-6_display-flex>div>div>h3 {
+    color: var(--Black, #232536);
+
+    /* Heading H3 */
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+    letter-spacing: -1px;
+
+}
+
+.section-6_display-flex>div>p {
+    color: var(--Medium-grey, #6D6E76);
+    text-align: center;
+
+    /* Body 2 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    width: 240px;
+    margin: 0 auto 20px;
+}
+
+.section-6_icones {
+    display: flex;
+    justify-content: center;
+}
+
+.section-6_icones>a {
+    text-decoration: none;
+}
+
+.section-6_icones>a>img {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
 }

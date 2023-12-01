@@ -303,3 +303,80 @@ section.section-1>div>div>p>span {
     /* 177.778% */
     border: none;
 }
+
+.section-5 {
+    background: var(--Light, #FFF);
+    position: relative;
+    margin-top: 128px;
+}
+
+.section-5 .container>div {
+    /* width: 706px; */
+    height: 584px;
+    flex-shrink: 0;
+    background: var(--Light, #FFF);
+    position: absolute;
+    top: 121px;
+    left: 574px;
+    padding: 80px;
+}
+
+.section-5 .container>div>h2 {
+    margin-bottom: 24px;
+    color: #232536;
+
+    /* Cap 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.section-5 .container>div>h3 {
+    color: var(--Black, #232536);
+
+    /* Heading H1 */
+    font-family: Sen;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+    letter-spacing: -2px;
+    width: 546px;
+    margin-bottom: 16px;
+}
+
+.section-5 .container>div>p {
+    color: var(--Medium-grey, #6D6E76);
+
+    /* Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    width: 546px;
+    margin-bottom: 32px;
+}
+
+.section-5 .container>div>a>button {
+    display: inline-flex;
+    padding: 16px 48px;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--Yellow, #FFD050);
+    border: none;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.333% */
+}

@@ -16,10 +16,12 @@
     position: fixed;
     z-index: 99999;
 }
-.container{
+
+.container {
     width: 90%;
     margin: auto;
 }
+
 .header_logo {
     width: 140px;
     height: 28.354px;
@@ -31,6 +33,7 @@
     align-items: center;
 
 }
+
 div.toolbar>a {
     text-decoration: none;
 }
@@ -58,7 +61,7 @@ div.toolbar>a>button {
     color: #232536;
 }
 
-.yellow-button{
+.yellow-button {
     display: inline-flex;
     padding: 16px 48px;
     align-items: flex-start;
@@ -67,4 +70,90 @@ div.toolbar>a>button {
     color: #232536;
     margin-top: 48px;
     border: 0;
+}
+
+.section-4 {
+    background: var(--Light, #FFF);
+}
+
+.section-4_display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-4_headerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.section-4_iconeBackground {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px 12.043px 12px 13px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #FBF6EA;
+    border-radius: 10px;
+}
+
+.section-4 .container>div>h1 {
+    margin: 128px 0 40px 0;
+    color: var(--Black, #232536);
+
+    /* Heading H3 */
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+    letter-spacing: -1px;
+}
+
+.section-4_display-flex>div {
+    width: 296px;
+    height: 228px;
+    flex-shrink: 0;
+    padding: 32px;
+    border: 1px solid var(--Medium-grey, rgb(109 110 118 / 30%));
+    /* opacity: 0.3; */
+}
+
+.section-4_display-flex>div>img {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.section-4_display-flex>div>h3 {
+    color: var(--Black, #232536);
+
+    /* Heading H3 */
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+    letter-spacing: -1px;
+}
+
+.section-4_display-flex>div>p {
+    color: var(--Medium-grey, #6D6E76);
+
+    /* Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    width: 232px;
 }

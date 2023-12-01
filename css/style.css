@@ -121,6 +121,7 @@ div.toolbar>a>button {
     padding: 32px;
     border: 1px solid var(--Medium-grey, rgb(109 110 118 / 30%));
     /* opacity: 0.3; */
+
 }
 
 .section-4_display-flex>div>img {
@@ -191,6 +192,7 @@ div.toolbar>a>button {
     flex-shrink: 0;
     background: var(--Light-grey, #F4F4F4);
     padding: 40px 0;
+    
 }
 
 .section-6_display-flex>div>img {

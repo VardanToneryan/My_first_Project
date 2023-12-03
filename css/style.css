@@ -52,7 +52,7 @@ div.toolbar>a>h3 {
 
 }
 
-div.toolbar>a>button {
+div.toolbar>button {
     display: inline-flex;
     padding: 16px 48px;
     align-items: flex-start;
@@ -63,8 +63,8 @@ div.toolbar>a>button {
 
 .yellow-button {
     display: inline-flex;
-    padding: 30px 70px;
-    font-size: 25px;
+    padding: 20px 50px;
+    font-size: 20px;
     align-items: flex-start;
     gap: 12px;
     background: var(--Yellow, #FFD050);
@@ -331,7 +331,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.footerSecontBlcok_secondBlcok>label>input {
+.footerSecontBlcok_secondBlcok>form>input {
     width: 323px;
     height: 56px;
     flex-shrink: 0;
@@ -341,7 +341,7 @@ footer {
 
 }
 
-.footerSecontBlcok_secondBlcok>label>button {
+.footerSecontBlcok_secondBlcok>form>button {
     display: inline-flex;
     padding: 20px 48px;
     align-items: flex-start;

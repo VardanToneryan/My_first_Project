@@ -1,0 +1,57 @@
+@media screen and (max-width:1370px){
+    div.toolbar>a {
+        font-size: 14px;
+    }
+    .container {
+        width: 1200px;
+    }
+    header>div>div>h1 {
+        width: 770px;
+        font-size: 48px;
+    }
+    .yellow-button {
+        padding: 16px 40px;
+    }
+    .section-2 .section-2_firstDiv>div>img{
+        width: 500px;
+    }
+    .section-2 .section-2_firstDiv>div>h3 {
+        width: 500px;
+    }
+    .section-2 .section-2_firstDiv>h2 {
+        font-size: 32px;
+    }
+    .section-2_secondDiv>div>h2 {
+        font-size: 32px;
+    }
+    .section-2_secondDiv>div>h3 {
+        font-size: 20px;
+        width: 300px;
+    }
+    .section-2 .section-2_firstDiv>div>h3 {
+        font-size: 26px;
+    }
+    .yellow-button {
+        margin-top: 125px;
+    }
+    .section-3_grayBlock>div>p {
+        font-size: 30px;
+        width: 360px;
+    }
+    .section-4_display-flex>div {
+        width: 270px;
+    }
+    .section-5 .container>div {
+        left: 35%;
+    }
+    .section-5_displayFlex>div>h3 {
+        font-size: 40px;
+        width: 436px;
+    }
+    .section-6_display-flex>div {
+        width: 260px;
+    }
+    .section-6_secondDiv>p {
+        margin-left: 50px;
+    }
+}

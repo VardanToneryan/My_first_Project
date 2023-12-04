@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-#header {
+#nav {
     width: 100%;
     /* min-width: 1440px; */
     /* height: 80px; */
@@ -23,7 +23,7 @@
     margin: auto;
 }
 
-.header_logo {
+.nav_logo {
     width: 140px;
     height: 28.354px;
     flex-shrink: 0;
@@ -39,7 +39,7 @@ div.toolbar>a {
     text-decoration: none;
 }
 
-div.toolbar>a>h3 {
+div.toolbar>a {
     color: #FFF;
 
     /* Body 1 */
@@ -57,25 +57,31 @@ div.toolbar>button {
     display: inline-flex;
     padding: 16px 48px;
     align-items: flex-start;
-    background: var(--Light, #FFF);
+    background-color: #FFF;
     color: #232536;
+    border: none;
 }
 
 .yellow-button {
-    display: inline-flex;
     padding: 20px 50px;
     font-size: 20px;
-    align-items: flex-start;
-    gap: 12px;
-    background: var(--Yellow, #FFD050);
+    background-color: #FFD050;
     color: #232536;
     margin-top: 68px;
     border: 0;
     margin-bottom: 90px;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.333% */
 }
 
 .section-4 {
-    background: var(--Light, #FFF);
+    /* background: var(--Light, #FFF); */
+    background-color: #fff;
 }
 
 .section-4_display-flex {
@@ -101,10 +107,10 @@ div.toolbar>button {
     border-radius: 10px;
 }
 
-.section-4 .container>div>h1 {
+.section-4 .container>div>h2 {
     margin: 128px 0 40px 0;
-    color: var(--Black, #232536);
-
+    /* color: var(--Black, #232536); */
+    color: #232536;
     /* Heading H3 */
     font-family: Sen;
     font-size: 28px;
@@ -120,7 +126,7 @@ div.toolbar>button {
     height: 228px;
     flex-shrink: 0;
     padding: 32px;
-    border: 1px solid var(--Medium-grey, rgb(109 110 118 / 30%));
+    border: 1px solid rgb(109 110 118 / 30%);
     /* opacity: 0.3; */
 
 }
@@ -136,7 +142,8 @@ div.toolbar>button {
 }
 
 .section-4_display-flex>div>h3 {
-    color: var(--Black, #232536);
+    /* color: var(--Black, #232536); */
+    color: #232536;
 
     /* Heading H3 */
     font-family: Sen;
@@ -149,7 +156,8 @@ div.toolbar>button {
 }
 
 .section-4_display-flex>div>p {
-    color: var(--Medium-grey, #6D6E76);
+    /* color: var(--Medium-grey, #6D6E76); */
+    color: #6D6E76;
 
     /* Body 1 */
     font-family: Inter;
@@ -167,8 +175,8 @@ div.toolbar>button {
 }
 
 .section-6 .section-6_headerDiv>h2 {
-    color: var(--Black, #232536);
-
+    /* color: var(--Black, #232536); */
+    color: #232536;
     /* Heading H2 */
     font-family: Sen;
     font-size: 36px;
@@ -191,7 +199,8 @@ div.toolbar>button {
     width: 296px;
     height: 324px;
     flex-shrink: 0;
-    background: var(--Light-grey, #F4F4F4);
+    /* background: var(--Light-grey, #F4F4F4); */
+    background-color: #F4F4F4;
     padding: 40px 0;
 
 }
@@ -206,8 +215,8 @@ div.toolbar>button {
 }
 
 .section-6_display-flex>div>div>h3 {
-    color: var(--Black, #232536);
-
+    /* color: var(--Black, #232536); */
+    color: #232536;
     /* Heading H3 */
     font-family: Sen;
     font-size: 28px;
@@ -220,7 +229,8 @@ div.toolbar>button {
 }
 
 .section-6_display-flex>div>p {
-    color: var(--Medium-grey, #6D6E76);
+    /* color: var(--Medium-grey, #6D6E76); */
+    color: #6D6E76;
     text-align: center;
 
     /* Body 2 */
@@ -253,12 +263,14 @@ div.toolbar>button {
 }
 
 .joinNowButton {
-    background: var(--Yellow, #FFD050);
+    /* background: var(--Yellow, #FFD050); */
+    background-color: #FFD050;
     display: inline-flex;
     padding: 16px 48px;
     align-items: flex-start;
     gap: 12px;
-    color: var(--Black, #232536);
+    /* color: var(--Black, #232536); */
+    color: #232536;
     font-family: Sen;
     font-size: 18px;
     font-style: normal;
@@ -271,7 +283,8 @@ div.toolbar>button {
 
 footer {
     padding: 59px 80px 56px;
-    background: var(--Black, #232536);
+    /* background: var(--Black, #232536); */
+    background-color: #232536;
 }
 
 .logoAndToolbar {
@@ -335,7 +348,7 @@ footer {
     width: 323px;
     height: 56px;
     flex-shrink: 0;
-    border: 1px solid var(--Dark-Grey, #4C4C4C);
+    border: 1px solid #4C4C4C;
     background-color: #2e3040;
     padding: 0 20px;
 
@@ -346,7 +359,7 @@ footer {
     padding: 20px 48px;
     align-items: flex-start;
     gap: 12px;
-    background: var(--Yellow, #FFD050);
+    background-color: #FFD050;
     border: none;
     margin-left: 20px;
 }

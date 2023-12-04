@@ -82,6 +82,8 @@ div.toolbar>button {
 .section-4 {
     /* background: var(--Light, #FFF); */
     background-color: #fff;
+    margin-bottom: 128px;
+    ;
 }
 
 .section-4_display-flex {

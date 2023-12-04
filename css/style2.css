@@ -4,7 +4,6 @@
 
 .section-1 {
     padding-top: 105px;
-    padding-bottom: 29vh;
     background: url('../img/header-image.png');
     /* filter: brightness(0.5); */
     background-blend-mode: multiply;
@@ -17,9 +16,9 @@
  }  */
 
 section.section-1>div>div>h3 {
-    color: var(--Light, #FFF);
+    color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -31,12 +30,13 @@ section.section-1>div>div>h3 {
 
 section.section-1>div>div>h1 {
     width: 803px;
-    color: var(--Light, #FFF);
+    /* color: var(--Light, #FFF); */
+    color: #fff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     /* Display */
     font-family: Sen;
-    font-size: 60px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 64px;
@@ -45,11 +45,11 @@ section.section-1>div>div>h1 {
 }
 
 section.section-1>div>div>p {
-    color: var(--Light, #FFF);
-
+    /* color: var(--Light, #FFF); */
+    color: #fff;
     /* Body 1 */
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -70,7 +70,7 @@ section.section-1>div>div>p>span {
 
 .section-2_display-flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -391,7 +391,7 @@ section.section-1>div>div>p>span {
 }
 
 .section-6_secondDiv>p {
-    color: var(--Medium-grey, #6D6E76);
+    color: #6D6E76;
 
     /* Body 2 */
     font-family: Inter;
@@ -399,7 +399,7 @@ section.section-1>div>div>p>span {
     font-style: normal;
     font-weight: 400;
     opacity: 0.6;
-    margin-left: 110px;
+    margin-left: 74px;
 }
 
 .section-6_secondDiv>div>h3 {
@@ -420,18 +420,21 @@ section.section-1>div>div>p>span {
 }
 
 .section-7 {
-    background: var(--Light-yellow, #FBF6EA);
-    padding: 50px;
     margin-top: 104px;
 
 }
-.section-7_firstDiv{
-    border-right: 2px solid  #6D6E76;
+
+.section-7_firstDiv {
+    border-right: 2px solid #6D6E76;
 }
-.section-7_displayflex{
+
+.section-7_displayflex {
+    padding: 50px;
+    background-color: #FBF6EA;
     display: flex;
     justify-content: space-evenly;
 }
+
 .section-7_firstDiv>h3 {
     color: var(--Black, #232536);
 
@@ -460,6 +463,7 @@ section.section-1>div>div>p>span {
     letter-spacing: -2px;
     margin: 12px 0 16px 0;
 }
+
 .section-7_firstDiv>p {
     color: var(--Black, #232536);
 
@@ -468,11 +472,13 @@ section.section-1>div>div>p>span {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 175% */
+    line-height: 28px;
+    /* 175% */
     width: 349px;
 
 }
-.section-7_secondDiv>p{
+
+.section-7_secondDiv>p {
     width: 469px;
     color: var(--Black, #232536);
 
@@ -481,16 +487,19 @@ section.section-1>div>div>p>span {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 133.333% */
+    line-height: 40px;
+    /* 133.333% */
 }
-.section-7_secondDiv>div>img{
+
+.section-7_secondDiv>div>img {
     width: 48px;
     height: 48px;
     flex-shrink: 0;
     margin-right: 16px;
     border-radius: 48px;
 }
-.section-7_secondDiv>div>div>h2{
+
+.section-7_secondDiv>div>div>h2 {
     color: var(--Black, #232536);
 
     /* Heading H4 */
@@ -498,9 +507,11 @@ section.section-1>div>div>p>span {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px;
+    /* 133.333% */
 }
-.section-7_secondDiv>div>div>h3{
+
+.section-7_secondDiv>div>div>h3 {
     color: var(--Medium-grey, #6D6E76);
 
     /* Body 1 */
@@ -508,30 +519,36 @@ section.section-1>div>div>p>span {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 175% */
+    line-height: 28px;
+    /* 175% */
 }
-.section-7_secondDiv>div>button{
+
+.section-7_secondDiv>div>button {
     border: none;
-    background-color:#fbf6ea ;
+    background-color: #fbf6ea;
 }
-.section-7_backButton{
+
+.section-7_backButton {
     margin-left: 70px;
     margin-right: 10px;
 }
-.section-7_secondDiv>div>button>img{
+
+.section-7_secondDiv>div>button>img {
     width: 48px;
     height: 48px;
     flex-shrink: 0;
 }
-.section-7_secondDiv>div{
+
+.section-7_secondDiv>div {
     display: flex;
     margin-top: 140px;
 
 }
 
-.section-8{
+.section-8 {
     margin: 128px 0;
 }
+
 .section-8_Display {
     margin: 0 auto;
     width: 420px;

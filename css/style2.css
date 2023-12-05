@@ -4,7 +4,7 @@
 
 header {
     padding-top: 109px;
-    padding-bottom: 20px;
+    padding-bottom: 69px;
     background: url('../img/header-image.png');
     /* filter: brightness(0.5); */
     background-blend-mode: multiply;
@@ -252,7 +252,7 @@ header>div>div>h3>span {
 
 .section-3_grayBlock {
     display: flex;
-    height: 500px;
+    /* height: 500px; */
     flex-shrink: 0;
     /* background: var(--Lavender, #F4F0F8); */
     background-color: #F4F0F8;
@@ -293,7 +293,7 @@ header>div>div>h3>span {
 
 .section-3_grayBlock>div>span {
     width: 515px;
-    height: 56px;
+    /* height: 56px; */
     flex-shrink: 0;
     /* color: var(--Medium-grey, #6D6E76); */
     color: #6D6E76;
@@ -322,21 +322,16 @@ header>div>div>h3>span {
 }
 
 .section-5 {
-    /* background: var(--Light, #FFF); */
     background-color: #fff;
-    /* position: relative; */
     margin-top: 128px;
     background-image: url("../img/close-up-photography-of-man-wearing-sunglasses-1212984.png");
     background-repeat: no-repeat;
     padding: 121px 150px 0 0;
-    margin: 0 0 0 80px;
 }
 
-.section-5 .container>div>div {
-    width: 706px;
-    height: 584px;
-    flex-shrink: 0;
-    /* background: var(--Light, #FFF); */
+.section-5>div>div {
+    /* width: 706px;
+    height: 584px; */
     background-color: #fff;
     padding: 80px;
 }

@@ -14,25 +14,29 @@
 
 <body>
     <!-- header -->
-    <nav id="nav">
-        <div>
-            <a href="#">
-                <img class="nav_logo" src="./img/Logo.png" alt="This is a logo">
-            </a>
-        </div>
-        <div class="toolbar">
-            <a href="#">
-                Blog
-            </a>
-            <a href="#">
-                About Us
-            </a>
-            <a href="#">
-                Contact us
-            </a>
-            <!-- <a href="#"> -->
-            <button>Subscribe</button>
-            <!-- </a> -->
+    <nav>
+        <div class="container">
+            <div class="nav_display">
+                <div>
+                    <a href="#">
+                        <img class="nav_logo" src="./img/Logo.png" alt="This is a logo">
+                    </a>
+                </div>
+                <div class="toolbar">
+                    <a href="#">
+                        Blog
+                    </a>
+                    <a href="#">
+                        About Us
+                    </a>
+                    <a href="#">
+                        Contact us
+                    </a>
+                    <!-- <a href="#"> -->
+                    <button>Subscribe</button>
+                    <!-- </a> -->
+                </div>
+            </div>
         </div>
     </nav>
     <div class="nav_underBlock"> </div>
@@ -56,8 +60,11 @@
         </div>
     </header>
     <main>
-        <section class="section-2">
-            <div class="container">
+        <div class="container">
+
+
+            <section class="section-2">
+                <!-- <div class="container"> -->
                 <div class="section-2_display-flex">
                     <div class="section-2_firstDiv">
                         <h2>Featured Post</h2>
@@ -115,13 +122,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- section-2 -->
-        <section class="section-3">
-            <div class="container">
-
-
+                <!-- </div> -->
+            </section>
+            <!-- section-2 -->
+            <section class="section-3">
                 <div class="section-3_colorBlocks">
                     <div class="yellow_Block"></div>
                     <div class="blue_Block"></div>
@@ -151,11 +155,9 @@
                         </span>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- section-3 -->
-        <section class="section-4">
-            <div class="container">
+            </section>
+            <!-- section-3 -->
+            <section class="section-4">
                 <div class="section-4_headerDiv">
                     <h2>Choose A Category</h2>
                 </div>
@@ -189,11 +191,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- section-4 -->
-        <section class="section-5">
-            <div class="container">  
+            </section>
+            <!-- section-4 -->
+            <section class="section-5">
                 <div class="section-5_displayFlex">
                     <div>
                         <h2>Why we started </h2>
@@ -207,11 +207,9 @@
                         <button>Discover our story ></button>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- section-5 -->
-        <section class="section-6">
-            <div class="container">
+            </section>
+            <!-- section-5 -->
+            <section class="section-6">
                 <div class="section-6_headerDiv">
                     <h2>Choose A Category</h2>
                 </div>
@@ -239,7 +237,7 @@
 
                         </div>
                     </div>
-                    <div style="background: var(--Light-yellow, #FBF6EA);">
+                    <div style="background-color:  #FBF6EA;">
                         <img src="./img/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.png"
                             alt="This is a icone">
                         <div style="display: flex; justify-content: center;">
@@ -329,15 +327,10 @@
                         </a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- section-6 -->
-        <section class="section-7">
-            <div class="container">
+            </section>
+            <!-- section-6 -->
+            <section class="section-7">
                 <div class="section-7_displayflex">
-
-
-
                     <div class="section-7_firstDiv">
                         <h3>TESTIMONIALs</h3>
                         <h2>What people say about our blog</h2>
@@ -367,11 +360,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- section-7 -->
-        <section class="section-8">
-            <div class="container">
+            </section>
+            <!-- section-7 -->
+            <section class="section-8">
                 <div class="section-8_Display">
                     <h2>Join our team to be a part of our story</h2>
                     <p>
@@ -380,43 +371,46 @@
                     </p>
                     <button class="joinNowButton">Join Now</button>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer>
-        <div class="logoAndToolbar">
-            <img src="./img/Logo.png" alt="This is a logo">
-            <div>
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Pravicy Policy</a>
+        <div class="container">
+
+            <div class="logoAndToolbar">
+                <img src="./img/Logo.png" alt="This is a logo">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Pravicy Policy</a>
+                </div>
             </div>
-        </div>
-        <div class="footerSecontBlcok">
-            <div>
-                <h2>
-                    Subscribe to our news letter to get latest updates and news
-                </h2>
+            <div class="footerSecontBlcok">
+                <div>
+                    <h2>
+                        Subscribe to our news letter to get latest updates and news
+                    </h2>
+                </div>
+                <div class="footerSecontBlcok_secondBlcok">
+                    <form method="get">
+                        <input type="text" placeholder="Enter Your Email">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
             </div>
-            <div class="footerSecontBlcok_secondBlcok">
-                <form method="get">
-                    <input type="text" placeholder="Enter Your Email">
-                    <button>Subscribe</button>
-                </form>
-            </div>
-        </div>
-        <div class="footerLastBlock">
-            <div>
-                <p>Finstreet 118 2561 Fintown</p>
-                <p>Hello@finsweet.com 020 7993 2905</p>
-            </div>
-            <div>
-                <a href="#"><img src="./img/footer-fb.png" alt="This is a social icones "></a>
-                <a href="#"><img src="./img/footer-tw.png" alt="This is a social icones "></a>
-                <a href="#"><img src="./img/footer-insta.png" alt="This is a social icones "></a>
-                <a href="#"><img src="./img/footer-linkdin.png" alt="This is a social icones "></a>
+            <div class="footerLastBlock">
+                <div>
+                    <p>Finstreet 118 2561 Fintown</p>
+                    <p>Hello@finsweet.com 020 7993 2905</p>
+                </div>
+                <div>
+                    <a href="#"><img src="./img/footer-fb.png" alt="This is a social icones "></a>
+                    <a href="#"><img src="./img/footer-tw.png" alt="This is a social icones "></a>
+                    <a href="#"><img src="./img/footer-insta.png" alt="This is a social icones "></a>
+                    <a href="#"><img src="./img/footer-linkdin.png" alt="This is a social icones "></a>
+                </div>
             </div>
         </div>
     </footer>

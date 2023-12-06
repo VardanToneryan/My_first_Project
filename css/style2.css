@@ -162,10 +162,8 @@ header>div>div>h3>span {
 }
 
 .section-2_secondDiv_blocks {
-    width: 517px;
-    height: 181px;
-    flex-shrink: 0;
-    padding: 32px 25px;
+
+    padding: 32px 109px;
 }
 
 .section-2_secondDiv_div1 {
@@ -221,7 +219,7 @@ header>div>div>h3>span {
     font-weight: 700;
     line-height: 32px;
     /* 133.333% */
-    width: 369.181px;
+    width: 369px;
 }
 
 .section-3 {
@@ -236,14 +234,14 @@ header>div>div>h3>span {
 }
 
 .yellow_Block {
-    width: 843px;
+    width: 70%;
     height: 23px;
     flex-shrink: 0;
     background-color: #FFD050;
 }
 
 .blue_Block {
-    width: 282px;
+    width: 30%;
     height: 23px;
     flex-shrink: 0;
     /* background-color: var(--Purple, #592EA9); */
@@ -309,7 +307,7 @@ header>div>div>h3>span {
     margin-bottom: 16px;
 }
 
-.section-3_grayBlock>div>button {
+.section-3_grayBlock>div>a {
     /* color: var(--Purple, #592EA9); */
     color: #592EA9;
     font-family: Sen;
@@ -319,8 +317,17 @@ header>div>div>h3>span {
     line-height: 32px;
     /* 177.778% */
     border: none;
+    text-decoration: none;
 }
-
+.section-3_grayBlock>div>a:hover{
+    background-color: #FFD050;
+    color: #232536;
+    padding: 16px 48px;
+    transition: 0.5s;
+}
+.section-3_grayBlock>div>a:not(:hover) {
+    transition: 0.5s;
+}
 .section-5 {
     background-color: #fff;
     margin-top: 128px;
@@ -400,6 +407,11 @@ header>div>div>h3>span {
     font-weight: 700;
     line-height: 24px;
     /* 133.333% */
+}
+.section-5_displayFlex>div>button:hover {
+    background-color: #232536;
+    color: #FFD050;
+    transition: 0.5s;
 }
 
 .section-6_secondDiv {
@@ -609,4 +621,8 @@ header>div>div>h3>span {
     line-height: 28px;
     /* 175% */
     margin: 16px 0 32px;
+}
+.section-2_secondDiv_blocks:hover{
+    background-color:#FBF6EA;
+    transition: 1s;
 }

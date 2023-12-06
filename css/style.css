@@ -388,3 +388,8 @@ footer {
     flex-shrink: 0;
     margin: 0 5px;
 }
+
+
+.mobile-menu{
+    display: none;
+}

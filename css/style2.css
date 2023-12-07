@@ -14,7 +14,7 @@ header {
     background-blend-mode: multiply;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgb(0 0 0 / 60%);
+    /* background-color: rgb(0 0 0 / 60%); */
 }
 
 header>div>div>h3 {

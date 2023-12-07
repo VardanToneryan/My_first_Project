@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,15 +8,19 @@
     .container {
         width: 1200px;
     }
-    header{
+
+    header {
         padding: 71px 0 156px;
     }
+
     .yellow-button {
         margin-top: 80px;
     }
+
     .section-2_firstDiv>div>img {
         width: 420px;
     }
+
     .section-2_firstDiv>.section-2_firstDiv_border>div>h3 {
         width: 420px;
     }
@@ -32,14 +36,20 @@
     .section-3_grayBlock>div>span {
         width: 420px;
     }
+
     .section-4_display-flex>div {
         margin: 10px;
     }
+
     .section-6_display-flex>div {
         margin: 10px;
     }
+
     footer {
         padding: 59px 0 56px;
+    }
+    .section-4_display-flex {
+        justify-content: center;
     }
 }
 
@@ -55,76 +65,97 @@
     header {
         padding: 71px 0 56px;
     }
-    section{
+
+    section {
         margin-top: 100px;
     }
+
     .section-2_firstDiv_border {
         text-align: center;
     }
+
     .section-2_firstDiv>.section-2_firstDiv_border>div>p {
         text-align: center;
         margin: 15px auto;
     }
+
     .section-2_firstDiv>.section-2_firstDiv_border>div>h3 {
         text-align: center;
         margin: 0 auto;
     }
+
     .section-2_secondDiv>div>h3 {
         width: auto;
     }
+
     .section-3_grayBlock {
         justify-content: center;
     }
+
     .section-3_grayBlock>div>h3 {
         margin: 10px 0 24px 0;
     }
+
     .section-3_grayBlock>div>p {
         width: auto;
     }
+
     .section-7_secondDiv>div {
         margin-top: 25px;
     }
+
     .footerSecondBlock>h2 {
         margin: 0 0 20px 0;
     }
+
     .section-2_secondDiv_div1 {
         margin-bottom: 50px;
     }
+
     .section-7 {
         padding: 80px;
         flex-wrap: wrap;
     }
+
     .section-7_firstDiv {
         border: none;
         padding: 0;
         text-align: center;
     }
+
     .section-7_secondDiv>h4 {
         width: auto;
         margin: 15px 0 0 0;
     }
+
     .section-7_secondDiv>div {
         margin-top: 45px;
     }
+
     .section-7_secondDiv {
         margin: 0;
         text-align: center;
     }
+
     .section-7_firstDiv>h2 {
         width: auto;
     }
+
     .section-7_firstDiv>p {
         width: auto;
     }
+
     .section-7_secondDiv>div {
         justify-content: center;
         align-items: center;
     }
+
     .footerSecondBlock>h2 {
         width: auto;
         font-size: 32px;
     }
-    .section-6_secondDiv>div>a{
+
+    .section-6_secondDiv>div>a {
         margin: 20px 0;
     }
 }
@@ -133,21 +164,27 @@
     .container {
         width: 920px;
     }
+
     header {
         padding: 45px 0 40px;
     }
+
     header>div>div>h1 {
         margin: 17px 0 0;
     }
-    section{
+
+    section {
         margin-top: 50px;
     }
+
     .section-2_firstDiv>h2 {
         margin-bottom: 50px;
     }
+
     .section-5_displayFlex>div>h3 {
         font-size: 40px;
     }
+
     .section-6_secondDiv>div {
         display: flex;
         flex-direction: column;
@@ -209,10 +246,11 @@
         display: block;
         padding: 16px 48px;
     }
+
     .navbar button>a {
-        margin: 0 ;
+        margin: 0;
     }
-   
+
     header>div>div>h1 {
         font-size: 36px;
         line-height: 45px;
@@ -224,106 +262,131 @@
     .container {
         width: 90%;
     }
-    section{
+
+    section {
         margin-top: 20px;
     }
+
     header {
         padding: 25px 0 100px;
     }
+
     header>div>div>h1 {
         margin: 0;
     }
+
     header>div>div>p {
         margin-top: 0;
     }
+
     .yellow-button {
         margin-top: 15px;
     }
-    .section-2_firstDiv_border>div>img{
+
+    .section-2_firstDiv_border>div>img {
         width: 400px;
     }
+
     .footerSecondBlock>h2 {
         font-size: 20px;
         letter-spacing: 0;
     }
+
     .footerSecondBlock {
         padding: 80px 0;
     }
+
     .section-8 {
         margin-bottom: 20px;
     }
-} 
+}
 
 
 @media screen and (max-width:640px) {
     .container {
         width: 90%;
     }
+
     header {
         padding: 20px 0;
     }
+
     header>div>div>h3 {
         font-size: 14px;
     }
+
     header>div>div>h3>span {
         font-size: 14px;
     }
+
     header>div>div>h1 {
-        font-size: 24px;  
-          width: auto;
+        font-size: 24px;
+        width: auto;
     }
+
     header>div>div>p {
         font-size: 14px;
         width: auto;
     }
+
     header>div>div>span {
         font-size: 14px;
         margin-top: 0;
         width: auto;
     }
+
     .yellow-button {
         padding: 9px 30px;
     }
+
     .section-5_displayFlex>div>p {
         font-size: 14px;
         width: auto;
     }
+
     .section-5_displayFlex>div>h3 {
         font-size: 24px;
         width: auto;
-            line-height: 30px;
-            letter-spacing: 0;
-            margin-bottom: 5px;
-        
+        line-height: 30px;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+
     }
+
     .section-5 {
         background-image: url("");
         background-repeat: no-repeat;
-        padding:0;
+        padding: 0;
     }
+
     .section-5>div>div {
         padding: 50px;
         background-color: #F4F0F8;
     }
+
     .section-8>div>h2 {
         width: auto;
         font-size: 24px;
         letter-spacing: 0;
     }
+
     .footerSecondBlock>h2 {
         font-size: 20px;
         letter-spacing: 0;
         width: 300px;
         line-height: 25px;
     }
+
     .footerSecondBlock {
         padding: 30px 0 10px;
     }
+
     .logoAndToolbar {
         display: flex;
         flex-direction: column;
     }
 }
+
 @media screen and (max-width:530px) {
     .container {
         width: 90%;
@@ -332,14 +395,61 @@
     header>div>div>span {
         line-height: 17px;
     }
+
     .yellow-button {
         padding: 5px 10px;
     }
+
     .yellow-button>a {
         font-size: 14px;
         line-height: 20px;
     }
+
     header {
         padding: 20px 0 55px;
+    }
+
+
+    .footerSecondBlock>h2 {
+        font-size: 16px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .footerSecondBlock_secondBlock {
+        text-align: center;
+    }
+
+    .footerSecondBlock_secondBlock>form>input {
+        padding: 10px 10px;
+        margin: 0 0 15px 0;
+    }
+
+    .footerSecondBlock_secondBlock>form>button {
+        padding: 10px 10px;
+    }
+
+    .footerLastBlock {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .footerSecondBlock {
+        margin-top: 20px;
+    }
+
+    .footerLastBlock>div {
+        margin: 10px 0;
+    }
+
+    .logoAndToolbar {
+        align-items: center;
+    }
+
+    .logoAndToolbar>div>a {
+        display: block;
+        text-align: center;
+        margin: 10px;
     }
 }

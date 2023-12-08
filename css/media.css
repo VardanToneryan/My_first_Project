@@ -437,6 +437,7 @@
 
     .footerSecondBlock {
         margin-top: 20px;
+        width: auto;
     }
 
     .footerLastBlock>div {
@@ -451,5 +452,11 @@
         display: block;
         text-align: center;
         margin: 10px;
+    }
+    #check:checked~.navbar {
+        height: 60vh;
+    }
+    .footerSecondBlock_secondBlock>form>input {
+        padding: 10px 0;
     }
 }

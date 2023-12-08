@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    padding: 10px 0;
+}
+
+.BlogPost_header {
+    padding: 128px 0 64px;
+}
+
+.header-firstImg {
+    width: 48px;
+    border-radius: 48px;
+    margin: 0 16px;
+}
+
+.blog-header_display {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.blog-header_display>div>div>h3 {
+    color: #592EA9;
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.blog-header_display>div>div>p {
+    color: #6D6E76;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.BlogPost_header h1 {
+    color: #232536;
+    font-family: Sen;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    width: 768px;
+    margin: 24px 0 34px;
+}
+
+.BlogPost_header h4 {
+    color: #232536;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 16px;
+}
+
+.blog-header_firstDiv {
+    display: flex;
+    align-items: center;
+}
+
+.blog-header_secondDiv {
+    display: flex;
+    align-items: center;
+}
+
+/* header */
+/* section-1 */
+.blogPost_section-1 {
+    background-image: url("../img/photo-of-woman-wearing-eyeglasses-3184405.png");
+    background-repeat: no-repeat;
+    height: 582px;
+    background-size: cover;
+    margin-bottom: 16px;
+}
+
+/* section-1 */
+/* section-2 */
+.blogPost_section-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 219px;
+}
+
+.blogPost_section-2 h2 {
+    color: #232536;
+    font-family: Sen;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin: 48px 0 0;
+}
+
+.blogPost_section-2 p {
+    color: #6D6E76;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 16px 0 0;
+}
+
+.blogPost_section-2 ul>li {
+    color: #161722;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.blogPost_section-2 ul {
+    margin: 24px 0 0 20px;
+}
+
+/* section-2 */
+/* section-3 */
+.blogPost-section-3_display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogPost_section-3 {
+    border-bottom: 1px rgb(109 110 118 / 30%);
+}
+
+.blogPost_section-3>h2 {
+    color: #000;
+    font-family: Sen;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin: 128px 0 64px;
+}
+
+.blogPost-section-3_display>div>img {
+    width: 405px;
+}
+
+.blogPost-section-3_display>div>h3 {
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blogPost-section-3_display>div>h3>span {
+    color: #592EA9;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.blogPost-section-3_display>div>h2 {
+    color: #232536;
+    font-family: Sen;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    width: 405px;
+}
+
+.blogPost-section-3_display>div>p {
+    color: #232536;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 405px;
+}
+
+.section-8 {
+    margin: 128px 0;
+}
+
+
+@media screen and (max-width:1370px) {
+    .blogPost-section-3_display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blogPost-section-3_display>div {
+        margin: 20px;
+    }
+
+    .blogPost_section-3>h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .BlogPost_header h1 {
+        font-size: 36px;
+        width: auto;
+    }
+    .blogPost_section-1 {
+        background-position-x: right;
+    }
+    .blogPost_section-2 {
+        padding: 0;
+    }
+}
+@media screen and (max-width:845px) {
+    .BlogPost_header h1 {
+        line-height: 44px;
+        text-align: center;
+    }
+    .blog-header_secondDiv {
+        justify-content: center;
+    }
+    .blogPost_section-2 h2 {
+        text-align: center;
+    }
+    .blogPost_section-1 {
+        display: none;
+    }
+}
+@media screen and (max-width:530px) {
+
+    .BlogPost_header {
+        padding: 34px 0;
+    }
+    .blog-header_display {
+        margin: 0;
+        width: auto;
+    }
+    .blog-header_firstDiv {
+        justify-content: center;
+    }
+    .blogPost-section-3_display>div>img {
+        width: 300px;
+    }
+    .blogPost-section-3_display>div>h2 {
+        width: auto;
+    }
+    .blogPost-section-3_display>div>p {
+        width: auto;
+    }
+    .section-8>div>p {
+        width: auto;
+    }
+    .BlogPost_header h1 {
+        font-size: 24px;
+    }
+    .blogPost_section-2 h2 {
+font-size: 24px;
+    }
+    .blogPost_section-3>h2 {
+        margin: 40px 0;
+    }
+    .blogPost-section-3_display>div>h2 {
+        font-size: 24px;
+    }
+}

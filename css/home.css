@@ -1,6 +1,5 @@
 /* General Styling */
 
-
 section {
     margin-top: 128px;
 }
@@ -12,14 +11,14 @@ header {
     background-blend-mode: multiply;
     background-size: 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(0 0 0 / 60%); */
 }
-
+header > .container >div{
+padding: 0 40% 0 0;
+}
 header>div>div>h3 {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 3px;
@@ -33,19 +32,14 @@ header>div>div>h1 {
     font-size: 56px;
     line-height: 64px;
     letter-spacing: -2px;
-    margin: 40px 0 0;
-    width: 803px;
+    margin: 40px 0 24px;
 }
 
 header>div>div>p {
     color: #fff;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 28px;
-    margin-top: 24px;
-    width: 599px;
 }
 
 header>div>div>span {
@@ -57,7 +51,6 @@ header>div>div>span {
     line-height: 28px;
     margin-top: 16px;
     display: block;
-    width: 599px;
 }
 
 header>div>div>p>span {
@@ -87,7 +80,9 @@ header>div>div>h3>span {
     border: 1px solid rgb(109 110 118 / 10%);
     padding: 32px;
 }
-
+.section-2_firstDiv_border>div>img {
+    width: 500px;
+}
 .section-2_firstDiv>h2 {
     color: #232536;
     font-family: Sen;

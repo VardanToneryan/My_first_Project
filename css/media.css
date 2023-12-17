@@ -163,7 +163,9 @@
     .footerSecondBlock>h2 {
         width: auto;
         font-size: 32px;
-        padding: 0 20%;
+        padding: 6px;
+        text-align: center;
+
     }
     .section-3_grayBlock>div>span {
         width: auto;
